@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyDictionary
 {
-    class MyDictionary<MyKey, MyValue> // MyKey ve MyClass ile çalışır.
+    class MyDictionary<MyKey, MyValue> // MyKey ve MyValue ile çalışır.
     {
         (MyKey, MyValue)[] array;
 
